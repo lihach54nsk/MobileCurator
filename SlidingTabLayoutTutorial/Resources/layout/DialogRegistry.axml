@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DEDEDC"
+    android:minWidth="300dp"
+    android:minHeight="600dp">
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#DEDEDC"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Имя"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#DEDEDC"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Фамилия"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/FirstName" />
+    <EditText
+        android:id="@+id/LoginReg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#DEDEDC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Логин"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/LastName" />
+    <EditText
+        android:id="@+id/PasswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#DEDEDC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Пароль"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/LoginReg" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordReg"
+        android:layout_marginTop="100dp">
+        <Button
+            android:text="Зарегистрироваться"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Registry"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:height="70dp"
+            android:paddingTop="2dp"
+            android:background="@android:color/background_light"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp" />
+    </RelativeLayout>
+</RelativeLayout>

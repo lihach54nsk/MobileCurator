@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:text="Войти"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignIn"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/holo_red_dark" />
+    <Button
+        android:text="Регистрация"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>
